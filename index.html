@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Decodificador</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+
+            <section id="section-left">
+                <header>
+                    <img src="./images/logo.svg" alt="Letra a da cor azul">
+                </header>
+                <div id="box-context-section-left">
+                    <textarea id="text-of-user" placeholder="Digite seu texto"></textarea>
+                    <div id="box-buttons">
+                        <span>
+                            <img src="./images/error.svg" alt="">
+                            <p>Apenas letras minúsculas e sem acento.</p>
+                        </span>
+                        <div>
+                            <button id="button-encode">Criptografar</button>
+                            <button id="button-decode">Descriptografar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-right">
+                <div class="box-style box-text-initial text-style">
+                    <img 
+                        src="./images/banner2.png" 
+                        alt="Um menino com uma lupa no seu olho direito olhando para um diamante"
+                    >
+                    <p id="text-output">Nenhuma mensagem </br>encontrada</p>
+                    <small>Digite um texto que você deseja criptografar ou descriptografar.</small>
+                </div>
+            </section>
+
+        </main>
+        <footer>
+            <div class="icons">
+                <h3>Brunno Faria</h3>
+                <div>
+                    <a class="logo-linkedin" href="https://www.linkedin.com/in/brunnofaria/"><img src="../decodificador/images/logo-linkedin.svg" name="logo-linkedin"/></a>
+                    <a class="logo-github" href="https://github.com/BrunnoFaria"><img src="../decodificador/images/logo-github.svg" name="logo-github"/></a>
+                </div>
+               
+            </div>
+        </footer>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
